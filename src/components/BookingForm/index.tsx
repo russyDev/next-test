@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Form from 'next/form';
 import checkIcon from '@/assets/icons/list-check.svg';
 
 export const BookingForm = () => {
@@ -40,17 +39,19 @@ export const BookingForm = () => {
             <div className="md:w-[50%] md:flex-none md:pr-10">
                 <p className="text-primary text-[28px] font-bold capitalize mb-4">Schedule Demo</p>
 
-                <Form action="/">
+                <form action="/">
                     <div className="grid grid-cols-2 gap-5">
                         <div className="col-span-1">
                             <label htmlFor="first-name"
                                    className="block text-[#0f1b24] text-sm font-medium leading-normal mb-1">First
                                 name*</label>
-                            <input
-                                type="text"
-                                id="first-name"
-                                className="w-full outline-0 bg-white border border-[#0f1b24]/10 p-3 text-xl"
-                            />
+                            <span>
+                                <input
+                                    type="text"
+                                    id="first-name"
+                                    className="w-full outline-0 bg-white border border-[#0f1b24]/10 p-3 text-xl"
+                                />
+                            </span>
                         </div>
                         <div className="col-span-1">
                             <label htmlFor="flast-name"
@@ -102,7 +103,7 @@ export const BookingForm = () => {
                                   strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                     </button>
-                </Form>
+                </form>
 
             </div>
 
