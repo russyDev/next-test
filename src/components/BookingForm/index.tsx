@@ -45,13 +45,11 @@ export const BookingForm = () => {
                             <label htmlFor="first-name"
                                    className="block text-[#0f1b24] text-sm font-medium leading-normal mb-1">First
                                 name*</label>
-                            <span>
                                 <input
                                     type="text"
                                     id="first-name"
                                     className="w-full outline-0 bg-white border border-[#0f1b24]/10 p-3 text-xl"
                                 />
-                            </span>
                         </div>
                         <div className="col-span-1">
                             <label htmlFor="flast-name"
