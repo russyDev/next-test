@@ -39,19 +39,19 @@ export const Footer = () => {
                 <h3 className="text-white text-xl font-bold font-['Montserrat'] leading-7 mb-5">Pages</h3>
                 <ul>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">Benefits</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">Benefits</a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">Testimonials</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">Testimonials</a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">Features</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">Features</a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">Pricing</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">Pricing</a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">Integration</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">Integration</a>
                     </li>
                 </ul>
             </div>
@@ -60,16 +60,16 @@ export const Footer = () => {
                 <h3 className="text-white text-xl font-bold font-['Montserrat'] leading-7 mb-5">Other</h3>
                 <ul>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">About Us</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">About Us</a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">Contact Us</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">Contact Us</a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">Privacy Policy</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">Privacy Policy</a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal">Terms of Service</a>
+                        <a href="" className="text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">Terms of Service</a>
                     </li>
                 </ul>
             </div>
@@ -78,19 +78,19 @@ export const Footer = () => {
                 <h3 className="text-white text-xl font-bold font-['Montserrat'] leading-7 mb-5">Contact Information</h3>
                 <ul>
                     <li className="mb-3">
-                        <a href="" className="flex items-center gap-3 text-white text-base font-normal font-['Montserrat'] leading-normal">
+                        <a href="" className="flex items-center gap-3 text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">
                             <Image src={phone} alt="phone" />
                             Sales: 1-866-404-5146
                         </a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="flex items-center gap-3 text-white text-base font-normal font-['Montserrat'] leading-normal">
+                        <a href="" className="flex items-center gap-3 text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">
                             <Image src={phone} alt="phone" />
                             Support: 1-877-325-2985
                         </a>
                     </li>
                     <li className="mb-3">
-                        <a href="" className="flex items-center gap-3 text-white text-base font-normal font-['Montserrat'] leading-normal">
+                        <a href="" className="flex items-center gap-3 text-white text-base font-normal font-['Montserrat'] leading-normal transition duration-300 hover:text-primary">
                             <Image src={envelope} alt="envelope" />
                             Contact us
                         </a>

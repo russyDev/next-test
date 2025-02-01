@@ -8,10 +8,12 @@ import {BookingForm} from "@/components/BookingForm";
 import {Footer} from "@/components/Footer";
 import {Benefits} from "@/components/Benefits";
 import {Header} from "@/components/Header";
+import {HeaderMenu} from "@/components/HeaderMenu";
 
 export default function Home() {
   return (
     <>
+        <HeaderMenu />
         <Header />
         <main>
             <FeaturedIn />

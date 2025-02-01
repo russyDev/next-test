@@ -24,6 +24,7 @@ export default function RootLayout({
           className={classNames(inter.className)}
       >
         {children}
+        <span className={classNames(popins.className, monseart.className, roboto.className, inter.className)}></span>
       </body>
     </html>
   );

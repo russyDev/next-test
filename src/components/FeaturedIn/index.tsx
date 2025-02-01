@@ -42,13 +42,13 @@ export const FeaturedIn = () => {
                 }}
             >
                 <SwiperSlide>
-                    <Image src={slide1} alt="Slide 1"/>
+                    <Image src={slide1} alt="Slide 1" priority/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image src={slide2} alt="Slide 2"/>
+                    <Image src={slide2} alt="Slide 2" priority/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image src={slide3} alt="Slide 3"/>
+                    <Image src={slide3} alt="Slide 3" priority/>
                 </SwiperSlide>
             </Swiper>
         </div>
