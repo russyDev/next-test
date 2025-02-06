@@ -42,7 +42,7 @@ export const HeaderMenu = () => {
             </div>
         </div>
 
-        {openMenu && <Navigation className="mt-20"/>}
+        {openMenu && <Navigation className="mt-20 flex flex-col gap-10"/>}
 
     </div>
 }

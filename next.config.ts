@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     images: {
         unoptimized: true, // Disable Image Optimization for static export
     },
-    basePath: '/nextJS',
+  /*  basePath: '/nextJS',*/
 };
 
 export default nextConfig;

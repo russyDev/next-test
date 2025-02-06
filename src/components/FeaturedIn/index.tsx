@@ -13,6 +13,7 @@ import slide1 from '@/assets/img/features_slider/1.png';
 import slide2 from '@/assets/img/features_slider/2.png';
 import slide3 from '@/assets/img/features_slider/3.png';
 import classNames from "classnames";
+import {Autoplay} from "swiper/modules";
 
 
 export const FeaturedIn = () => {
@@ -28,8 +29,7 @@ export const FeaturedIn = () => {
                 spaceBetween={30}
                 loop={true}
                 autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
+                    delay: 3500,
                 }}
                 breakpoints={{
                     768: {
@@ -40,6 +40,7 @@ export const FeaturedIn = () => {
                         slidesPerView: 3,
                     },
                 }}
+                modules={[Autoplay]}
             >
                 <SwiperSlide>
                     <Image src={slide1} alt="Slide 1" priority/>
